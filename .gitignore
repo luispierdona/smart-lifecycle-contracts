@@ -1,15 +1,26 @@
-# Dependencies
+# Dependencias generales
 node_modules/
 vendor/
 
-# Environment
+# Next.js and Laravel logs/builds
+.next/
+out/
+build/
+storage/*.key
+storage/logs/*.log
+/public/storage
+/public/build
+.phpunit.result.cache
+
+# Environment and Secrets
 .env
-.env.local
+.env.*
+!.env.example
 
 # Docker and local database
 db_data/
 
-# System and IDEs
+# OS e IDEs
 .DS_Store
 .vscode/
 .idea/
