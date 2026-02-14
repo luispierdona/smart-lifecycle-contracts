@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Environment
+.env
+.env.local
+
+# Docker and local database
+db_data/
+
+# System and IDEs
+.DS_Store
+.vscode/
+.idea/
